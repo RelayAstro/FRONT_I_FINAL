@@ -1,0 +1,524 @@
+/* SELECTOR UNIVERSAL */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 500;
+}
+
+/* VARIABLES */
+
+:root {
+  --violeta_primario: #8b48bf;
+  --celeste_primario: #3cddf3;
+  --gris_oscuro: #1e1e26;
+  --azul_oscuro: #232851;
+  --gris_claro: #3f4868;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 11rem;
+}
+
+header nav {
+  margin: auto 12rem;
+}
+
+.logo_y_h1 {
+  margin-left: 10.05rem;
+}
+
+.contact {
+  background-color: var(--violeta_primario);
+  border-radius: 50px;
+  padding: 10px;
+  width: 134px;
+  height: 44px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.25);
+}
+
+.hamburg {
+  display: none;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header nav ul li {
+  margin: 1rem;
+  padding: 0.5rem;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--gris_claro);
+}
+
+/* MAIN */
+
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto_principal {
+  height: 27rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: 5rem;
+}
+
+.deportista {
+  margin-right: 5rem;
+}
+
+.texto_principal h2 {
+  font-size: 3rem;
+  color: var(--gris_claro);
+  text-align: right;
+}
+
+.texto_principal p {
+  font-size: 1rem;
+  text-align: right;
+}
+
+.contact_main {
+  margin-right: 0;
+}
+
+/* DIFERENCES */
+
+.diferences {
+  height: 100%;
+}
+
+.texto_fondo_violeta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--violeta_primario);
+  color: white;
+  height: 168px;
+}
+
+.texto_fondo_violeta h2 {
+  width: 450px;
+  height: 88px;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-right: 5rem;
+}
+
+.texto_fondo_violeta p {
+  width: 450px;
+  height: 88px;
+  font-size: 1rem;
+  margin-left: 5rem;
+}
+
+.items {
+  display: flex;
+  margin: 4rem auto;
+  flex-wrap: wrap;
+  width: 90vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  width: 52rem;
+  height: 13rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.texto {
+  width: 40rem;
+  height: 13rem;
+}
+.item h4 {
+  color: var(--gris_claro);
+}
+
+.item p {
+  color: #b3b2b7;
+  font-size: 16.3px;
+}
+
+.tracks p {
+  color: white;
+}
+
+.tracks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 69px;
+  height: 43px;
+  background-color: var(--violeta_primario);
+  border-radius: 50px;
+  border: 0;
+  color: #fff;
+}
+
+.texto p {
+  padding-top: 1rem;
+}
+
+/* SECTION BEST OF THE MONTH */
+
+.depo_cont {
+  display: flex;
+  margin: 2rem auto;
+}
+
+.depo_cont h4 {
+  font-weight: 700;
+  color: var(--gris_claro);
+  margin: 1rem auto;
+}
+
+.best_of_the_month {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.best_of_the_month h2 {
+  font-size: 2.45rem;
+  color: var(--azul_oscuro);
+}
+.card_deportista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 22rem;
+  height: 15rem;
+  margin: 2rem;
+}
+
+.card_deportista p {
+  color: #b9b9c1;
+  font-size: 1rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* GET TO KNOW */
+
+.get_to_know {
+  background-color: var(--violeta_primario);
+  padding: 4rem;
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.get_to_know h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 40rem;
+}
+
+.go_for_it {
+  background-color: #fff;
+  color: var(--violeta_primario);
+  margin-left: 25rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: var(--gris_oscuro);
+}
+
+.pie nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3rem 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo_redes img {
+  padding: 0.5rem;
+  margin-bottom: 3rem;
+}
+.logo_redes ul {
+  display: flex;
+}
+
+.logo_redes ul li {
+  list-style: none;
+}
+
+.logo_redes ul li i {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.column_footer ul li {
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.column_footer ul li a {
+  font-weight: 400;
+}
+
+.input {
+  background-color: #fff;
+  color: #b9b9c1;
+  width: 13rem;
+}
+
+.submit {
+  width: 5rem;
+  margin-left: 0.5rem;
+}
+
+.column_3 p {
+  color: #8c8c94;
+  font-size: 0.8rem;
+  margin-top: 3rem;
+}
+
+.footer_mobile{
+  display: flex;
+  width: 20rem;
+  justify-content: space-between;
+
+
+}
+
+/* PSEUDOCLASES y TRANSICIONES */
+header nav ul li a:hover {
+  color: #8c8c94;
+}
+
+.contact:hover {
+  transition: all 400ms ease-in-out;
+  transform: scale(1.2);
+}
+
+/* BREAKPOINT */
+
+@media (max-width: 1440px) {
+    
+  /*HEADER*/
+
+  header {
+    height: auto;
+    width: 100%;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav {
+    display: none;
+  }
+  header button {
+    display: none;
+  }
+  .hamburg {
+    display: block;
+    font-size: 2.5rem;
+  }
+  .logo_y_h1 {
+    margin: 0;
+  }
+
+  /*MAIN*/
+
+  .principal {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .deportista {
+    width: 100%;
+    height: 25rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .deportista img {
+    scale: 0.77;
+  }
+  .texto_principal {
+    margin: 0;
+    width: 100%;
+    height: 32rem;
+    padding: 2rem;
+  }
+  .texto_principal h2 {
+    font-size: 3rem;
+    text-align: right;
+    font-weight: 700;
+  }
+  .texto_principal p {
+    font-size: 1.2rem;
+    text-align: right;
+    margin: 1rem auto;
+  }
+  .contact_main {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em;
+    width: 9.5rem;
+  }
+  .diferences {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .texto_fondo_violeta {
+    flex-direction: column;
+    padding: 2rem;
+    background-color: var(--celeste_primario);
+    text-align: left;
+    align-items: flex-start;
+    height: 20rem;
+  }
+  .texto_fondo_violeta h2 {
+    margin: 0;
+    width: 70%;
+  }
+  .texto_fondo_violeta p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 90%;
+    height: auto;
+    margin-top: 3rem;
+  }
+  .items {
+    margin: 2rem 0;
+    width: 100%;
+    padding: 2rem;
+    padding-right: 0rem;
+  }
+  .item {
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .tracks {
+    width: 9rem;
+    margin-right: -3rem;
+    z-index: 99;
+  }
+  .texto h4 {
+    background-color: #ab7fcc;
+    padding: 0.7rem;
+    text-align: center;
+  }
+  .texto p {
+    margin-left: -2rem;
+    width: 95%;
+  }
+  .best_of_the_month {
+    margin: 0;
+    width: 100%;
+    height: 28rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .depo_cont {
+    margin: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card_deportista {
+    display: none;
+  }
+  .lebron {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .get_to_know {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 3rem;
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--celeste_primario);
+  }
+  .get_to_know h2 {
+    text-align: center;
+    font-size: 3rem;
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  .go_for_it {
+    margin: 0;
+    color: white;
+    background-color: var(--azul_oscuro);
+  }
+
+  /* FOOTER */
+
+  .pie nav {
+    flex-direction: column-reverse;
+  }
+  .footer_mobile {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 3rem 0;
+  }
+  .logo_redes {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 10rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo_redes ul li {
+    margin: 0 1.3rem;
+  }
+  .input {
+    width: 18rem;
+  }
+  .column_3 p {
+    display: none;
+  }
+}
